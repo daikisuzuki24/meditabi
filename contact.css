@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  width: 100%;
+  height: 100px;
+}
+header img{
+  position: absolute;
+  top: 50px;
+  bottom: 0px;
+  height: 50px;
+}
+header ul.menu{
+  list-style: none;
+  display: flex;
+  position: absolute;
+  right: 5%;
+  top: 50px;
+}
+header ul.menu li a{
+  padding-right: 15px;
+  padding-right: 15px;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #6990B8;
+  letter-spacing: 3px;
+  list-style: none;
+  text-decoration: none;
+}
+header ul.menu li .home{
+  color: #96BA5D;
+}
+header .line{
+  height: 1px;
+  width: 90%;
+  border-top: 2px solid #96BA5D;
+  position: absolute;
+  top: 100px;
+  right: 5%;
+}
+main{
+  text-align: center;
+}
+main h2{
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #4F769D;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  letter-spacing: 4px;
+}
+main h3{
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #4F769D;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  letter-spacing: 4px;
+}
+
+
+
+.c-form {
+	max-width: 600px;
+	margin: 0 auto;
+}
+.c-form__item {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-bottom: 20px;
+}
+.c-form__label,
+.c-form__input {
+	padding: 10px;
+}
+.c-form__label {
+	width: 90%;
+  color: #4F769D;
+  font-family: sans-serif;
+}
+.c-form__input {
+	width: 90%;
+	font-size: 16px;
+	border: solid 1px #96BA5D;
+	border-radius: 4px;
+}
+.c-form__input:focus-visible {
+	outline: green auto 1px;
+}
+textarea.c-form__input {
+	height: 160px;
+}
+.c-form__submit {
+	text-align: center;
+  padding-bottom: 10vh;
+}
+.c-form__submit button {
+	font-size: 15px;
+	font-family: serif;
+	color: #fff;
+	background-color: #4F769D;
+	border: solid 5px #4F769D;
+	border-radius: 4px;
+	padding: 5px 32px;
+	transition: 0.4s;
+	cursor: pointer;
+}
+.c-form__submit button:hover {
+	color: #FFF;
+  background-color: #1f1f1f;
+	border: solid 5px #1f1f1f;
+}
+
+@media (min-width: 640px) {
+	.c-form__item {
+		flex-wrap: nowrap;
+	}
+	.c-form__label {
+		width: 40%;
+	}
+	.c-form__input {
+		width: 55%;
+	}
+}
