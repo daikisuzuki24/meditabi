@@ -8,8 +8,9 @@ header{
 }
 header img{
   position: absolute;
-  top: 50px;
+  top: 30px;
   bottom: 0px;
+  left: 5%;
   height: 50px;
 }
 header ul.menu{
