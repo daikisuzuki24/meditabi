@@ -107,10 +107,15 @@ main .hospital div p{
   padding-bottom: 10px;
 }
 main .hospital div a{
-  font-family: sans-serif;
+  display: inline-block; /* リンクをインラインブロック要素にする */
+  margin-top: 10px; /* リンクの上のマージン */
+  padding: 8px 15px; /* リンクのパディング */
+  background-color: #4F769D; /* 背景色 */
+  color: #ffffff; /* テキスト色 */
+  text-decoration: none; /* 下線を消す */
+  border-radius: 5px; /* 角を丸くする */
   font-size: 15px;
-  font-weight: 300;
-  color: #000;
-  padding-top: 20px;
-  text-decoration: none;
+}
+main .hospital div a:hover {
+  background-color: #96BA5D; /* ホバー時の背景色 */
 }
