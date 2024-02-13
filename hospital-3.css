@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  width: 100%;
+  height: 100px;
+}
+header img{
+  position: absolute;
+  top: 30px;
+  bottom: 0px;
+  left: 5%;
+  height: 50px;
+}
+header ul.menu{
+  list-style: none;
+  display: flex;
+  position: absolute;
+  right: 5%;
+  top: 50px;
+}
+header ul.menu li a{
+  padding-right: 15px;
+  padding-right: 15px;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #6990B8;
+  letter-spacing: 3px;
+  list-style: none;
+  text-decoration: none;
+}
+header ul.menu li .hospital{
+  color: #96BA5D;
+}
+header .line{
+  height: 1px;
+  width: 90%;
+  border-top: 2px solid #96BA5D;
+  position: absolute;
+  top: 100px;
+  right: 5%;
+}
+main{
+  text-align: center;
+}
+main h2{
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #4F769D;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  letter-spacing: 4px;
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  width: 90%;
+  padding-left: 5%;
+}
+
+section img {
+  width: 500px; /* 画像の幅を調整 */
+  height: auto; /* 画像の高さを自動調整 */
+  margin-right: 20px; /* 画像と情報の間にマージンを設定 */
+  border-radius: 4px; /* 画像の角を丸くする */
+}
+
+.hospital_info {
+  flex: 1; /* 残りの領域をすべて使用 */
+}
+
+.hospital_info h3 {
+  margin: 10px 0; /* 上下のマージンを設定 */
+  color: #444; /* 見出しの色 */
+  font-size: 16px; /* 見出しのフォントサイズ */
+  font-family: serif;
+}
+
+.hospital_info p {
+  margin: 5px 0; /* 上下のマージンを設定 */
+  color: #333; /* 段落テキストの色 */
+  font-size: 18px; /* テキストのフォントサイズ */
+  font-family: sans-serif;
+  padding-bottom: 30px;
+}
+
+.hospital_info a {
+  display: inline-block; /* リンクをインラインブロック要素にする */
+  margin-top: 10px; /* リンクの上のマージン */
+  padding: 8px 15px; /* リンクのパディング */
+  background-color: #4F769D; /* 背景色 */
+  color: #ffffff; /* テキスト色 */
+  text-decoration: none; /* 下線を消す */
+  border-radius: 5px; /* 角を丸くする */
+  font-size: 15px;
+}
+
+.hospital_info a:hover {
+  background-color: #96BA5D; /* ホバー時の背景色 */
+}
